@@ -28,7 +28,6 @@ class InstallController extends Controller
 {
     use ActivationClass, UnloadedHelpers;
 
-
     protected $businessSetting;
     protected $notificationSettingService;
     protected $firebasePushNotificationService;
